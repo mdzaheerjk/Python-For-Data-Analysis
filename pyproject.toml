@@ -1,0 +1,31 @@
+[project]
+name = "pydata-book"
+version = "3.0.0"
+description = "Code and materials for Python for Data Analysis, 3rd Edition"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "pandas==2.0.3",
+    "matplotlib",
+    "lxml",
+    "seaborn",
+    "statsmodels",
+    "scipy",
+    "patsy",
+    "scikit-learn",
+    "beautifulsoup4",
+    "jupyter",
+    "ipython",
+    "requests",
+    "sqlalchemy",
+    "pytz",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

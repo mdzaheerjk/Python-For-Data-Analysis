@@ -1,0 +1,15 @@
+numpy
+pandas==2.0.3
+matplotlib
+lxml
+seaborn
+statsmodels
+scipy
+patsy
+scikit-learn
+beautifulsoup4
+jupyter
+ipython
+requests
+sqlalchemy
+pytz
